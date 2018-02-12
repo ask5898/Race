@@ -240,10 +240,7 @@ if __name__ == "__main__" :
 	dxl = Dynamixel(Dxl=20)
 	balance.run()	
 	raw_input("Proceed?")	
-	#walk_init.run()
-	while True :
-		walk_motion.run()
-	'''bd = BlueDot()
+	bd = BlueDot()
 	bd.when_pressed = dpad
-	pause()'''
+	pause()
 	
